@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 //  Middleware
 app.use(cors({
-  origin: "https://daniel-web-two.vercel.app",
+  origin: "https://danidanportfolio.vercel.app",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"],
   credentials: true
